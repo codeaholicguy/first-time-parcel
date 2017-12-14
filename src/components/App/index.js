@@ -2,6 +2,11 @@ import React, {Component} from 'react'
 
 export default class App extends Component {
   render() {
-    return <h1>First time parcel</h1>
+    return (
+      <div>
+        <h1>First time parcel</h1>
+        <span>lorem disump</span>
+      </div>
+    )
   }
 }
